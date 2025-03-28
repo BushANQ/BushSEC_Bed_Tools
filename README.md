@@ -1,5 +1,7 @@
 # BushSEC_Bed_Tools
 
+##来自BushSEC开发的工具集
+
 主要功能包括:
 
 ## 1. 文件分析功能
