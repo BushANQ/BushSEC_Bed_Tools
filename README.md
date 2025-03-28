@@ -1,6 +1,6 @@
 # BushSEC_Bed_Tools
 
-## 来自BushSEC开发的工具集
+## 来自BushSEC开发的全套工具集(工具箱)
 
 主要功能包括:
 
