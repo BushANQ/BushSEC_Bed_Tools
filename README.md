@@ -1,5 +1,5 @@
 # BushSEC_Bed_Toolkit
-
+## V1.0初版：https://github.com/BushANQ/BushSEC-PE-injected，后续的更新将在此仓库进行
 ## 来自BushSEC开发的全套工具集(工具箱)
 
 主要功能包括:
@@ -125,4 +125,141 @@
 - 建议在测试环境中使用
 - 遵守当地法律法规
 
+### 更新日志
+#### V1.0 TO v2.0
+* [x] ---- 1.新增核心功能模块：
+
+- **进程注入功能**
+```python
+def process_injection(pid, shellcode_file, injection_method='classic'):
+    # 支持多种注入方法
+    # - 经典远程线程注入
+    # - APC注入 
+    # - 线程劫持注入
+    # - PE加载注入
+```
+- **代码混淆功能**
+```python
+def perform_obfuscation(input_file, output_file, options):
+    # 多种混淆技术:
+    # - 字符串加密
+    # - API调用混淆
+    # - 控制流混淆
+    # - 反调试技术
+```
+- **杀毒软件检测**
+```python
+def detect_av_processes():
+    # 检测超过100种杀毒软件
+    # 详细的进程状态监控
+    # 实时检测与更新
+```
+新增辅助功能：
+
+  - 文件完整性验证
+  - 进程权限管理
+  - 内存保护机制
+  - 日志记录系统
+
+* [x] ---- 2.用户界面升级
+
+UI框架改进：
+```python
+class AdvancedPEInjector(QWidget):
+    def __init__(self):
+        # 新增特性:
+        # - 多标签页设计
+        # - 黑色风格
+        # - 动态状态栏
+        # - 进度显示
+```
+
+交互优化：
+- 添加工具栏和菜单栏
+- 增加快捷键支持
+- 实时状态反馈
+- 操作历史记录
+
+* [x] ---- 3.注入技术升级
+
+多种注入方式：
+```python
+def patch_pe(pe_file_path, shellcode_path, output_file_path, options):
+    # 支持:
+    # - 新增区段注入
+    # - 代码洞注入
+    # - 已有区段注入
+    # - 入口点修改
+```
+
+加密与混淆：
+```python
+# 新增多层加密支持
+def multi_layer_encryption(shellcode, layers=3):
+    # - XOR加密
+    # - RC4加密
+    # - AES加密
+    # - 自定义加密算法
+```
+
+* [x] ---- 4.反检测技术
+
+新增多重反检测机制：
+```python
+def add_anti_analysis(shellcode):
+    # 包含:
+    # - 调试器检测
+    # - 虚拟机检测
+    # - 沙箱检测
+    # - 时间延迟检测
+```
+
+PE文件伪装：
+```python
+# 新增PE文件伪装技术
+def manipulate_headers(pe):
+    # - 时间戳修改
+    # - 节表随机化
+    # - 导入表混淆
+    # - 签名伪造
+```
+
+* [x] ---- 5.错误处理与日志
+
+错误处理：
+```python
+try:
+    # 操作代码
+except Exception as e:
+    import traceback
+    traceback.print_exc()
+    logging.error(f"错误详情: {str(e)}")
+```
+
+* [x] ---- 6.代码架构优化
+
+模块化设计：
+  - 核心功能模块化
+  - 界面与逻辑分离
+  - 配置文件独立
+
+性能优化：
+  - 多线程支持
+  - 内存管理优化
+  - 资源释放机制
+  - 缓存系统
+
+* [x] ---- 7.安全性提升
+
+新增安全特性：
+  - 进程权限校验
+  - 内存保护机制
+  - 操作验证
+  - 数据加密存储
+
+代码保护：
+  - 代码混淆
+  - 字符串加密
+  - 反调试技术
+  - 完整性校验
 
