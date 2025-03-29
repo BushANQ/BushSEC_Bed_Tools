@@ -1,6 +1,6 @@
 # BushSEC_Bed_Toolkit
 ## PE注入模块：https://github.com/BushANQ/BushSEC-PE-injected
-## 杀毒软件检测模块：用python实现的Get_AV：
+## 杀毒软件检测模块：用python实现的Get_AV：https://github.com/BushANQ/Get_AV
 ### 后续的更新将在此仓库进行
 ## 来自BushSEC开发的全套工具集(工具箱)
 
