@@ -1287,7 +1287,7 @@ class AdvancedPEInjector(QWidget):
         self.process_list = []
 
     def init_ui(self):
-        self.setWindowTitle('BushSEC 高级PE注入工具 v2.0')
+        self.setWindowTitle('BushSEC Bed Toolkit v2.0')
         self.setMinimumSize(1200, 800)
         self.showMaximized()
 
