@@ -1,6 +1,6 @@
 # BushSEC_Bed_Toolkit
 ## V1.0初版：https://github.com/BushANQ/BushSEC-PE-injected
-###后续的更新将在此仓库进行
+### 后续的更新将在此仓库进行
 ## 来自BushSEC开发的全套工具集(工具箱)
 
 主要功能包括:
